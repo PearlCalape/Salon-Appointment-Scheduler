@@ -53,3 +53,7 @@ pg_dump -cC --inserts -U freecodecamp salon > salon.sql
 chmod +x salon.sh
 chmod +x salon.sh
 ./salon.sh
+git remote set-url origin https://github.com/PearlCalape/Salon-Appointment-Scheduler.git
+git acp "1st try"
+git config --global alias.acp '!f() { git add -A && git commit -m "$@" && git push; }; f'
+git acp "1st try"
